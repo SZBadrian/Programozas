@@ -1,0 +1,20 @@
+using System;
+using System.Collections.Generic;
+using System.Text;
+
+namespace Beadando
+{
+        public class Ososztaly ///Osztály példányosítása
+        {
+            public static int randNum;
+            public Ososztaly() ///Osztály konstruktora
+            {
+                Random rnd = new Random();
+                randNum = rnd.Next(1, 100);
+            }
+        }
+        public class Osztaly : Ososztaly ///Osztály öröklődése
+        {
+
+        }
+}
